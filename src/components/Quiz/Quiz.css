@@ -1,0 +1,20 @@
+.quiz-main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 4fr 1fr;
+}
+.quiz-value{
+    position: sticky;
+    top: 15px;
+    background-color: rgb(29, 184, 29);
+    color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+.quiz-count{
+    font-size: 35px;
+    font-weight: 600;
+}
