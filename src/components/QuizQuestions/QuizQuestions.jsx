@@ -1,8 +1,8 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { toast } from 'react-toastify';
 import { CorrectContext } from '../../layouts/Main';
 import './QuizQuestions.css';
-import { BeakerIcon, EyeIcon } from '@heroicons/react/24/solid'
+import { EyeIcon } from '@heroicons/react/24/solid'
 
 const QuizQuestions = ({ quiz }) => {
     const [correct,setCorrect] = useContext(CorrectContext)
