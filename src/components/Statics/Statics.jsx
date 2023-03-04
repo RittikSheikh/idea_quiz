@@ -15,7 +15,7 @@ const Statics = () => {
     const datas = useLoaderData()
     const data = datas.data;
     return (
-            <LineChart className='my-[140px]'  width={400} height={350} data={data}>
+            <LineChart className='my-[170px]'  width={400} height={350} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey='name' padding={{ left: 30, right: 30 }} />
           <YAxis />
