@@ -2,6 +2,7 @@ import { ArrowDownOnSquareIcon, CursorArrowRippleIcon, LinkIcon } from '@heroico
 import React from 'react';
 
 const Blog = () => {
+	
     return (
         <div>
             <section className="dark:bg-cyan-500 dark:text-gray-100">
